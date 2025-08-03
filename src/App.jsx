@@ -1,17 +1,12 @@
-import "./App.css";
 import React from "react";
+import AddExpenseForm from "./components/AddExpenseForm";
+import ExpenseList from "./components/ExpenseList";
+import Test from "./components/Test";
 function App() {
   return (
     <>
-      <div className="flex flex-wrap min-h-screen items-center">
-        <div className="w-full">
-          <div className="w-full max-w-sm mx-auto flex justify-end mb-4">
-            {/* themebutton */}
-          </div>
-
-          <div className="w-full max-w-sm mx-auto">{/* Card */}</div>
-        </div>
-      </div>
+      <AddExpenseForm/>
+      <ExpenseList/>
     </>
   );
 }
